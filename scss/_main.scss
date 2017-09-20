@@ -1,0 +1,43 @@
+.wrap_main{
+	width: 960px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 100px;
+	
+	//helpers
+	.clearFix{
+		clear:both;
+	}
+
+	.main,.aside{
+		float: left;
+
+	}
+	
+	.main{
+		width: 610px;
+		height: auto;
+		margin-right: 25px;
+		padding-left: 60px;
+
+		h1{
+			color: $blue;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 62px;
+		}
+
+		.main_text{
+			@extend h1;
+			font-size: 16px;
+			text-transform: normal;
+		}
+
+	}
+	.aside{
+		width: 325px;
+		height: auto;
+		background-color: yellow;
+	}
+}

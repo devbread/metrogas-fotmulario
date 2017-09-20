@@ -1,0 +1,19 @@
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+//colors
+
+$blue:#0079b0;
+$color_gra_1:#FF456C;
+$color_gra_2:#FD6444;
+
+//activar mixing lineal
+//	@include gradient-horizontal($color_gra_1,$color_gra_2);
+
+
+//estilos por sección
+@import "scss/fonts";
+@import "scss/header";
+@import "scss/menu";
+@import "scss/main";
+@import "scss/footer";

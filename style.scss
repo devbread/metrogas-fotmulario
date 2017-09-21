@@ -1,14 +1,27 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 
 //colors
 
 $blue:#0079b0;
 $color_gra_1:#FF456C;
 $color_gra_2:#FD6444;
+$color_gra_3:#ffad41;
 
 //activar mixing lineal
 //	@include gradient-horizontal($color_gra_1,$color_gra_2);
+
+
+//famila de fuente
+$fuente-predeterminada: 'Montserrat', sans-serif;
+//peso de la fuente
+$f-regular:400;
+$f-medium:500;
+$f-semi:600;
+$f-bold:700;
+
+
+
 
 
 //estilos por sección
